@@ -9,9 +9,24 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reboot"
+        android:text="Lock"
         android:id="@+id/reboot"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service"
+        android:id="@+id/startservice"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop service"
+        android:layout_below="@id/startservice"
+        android:id="@+id/stopservice"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>

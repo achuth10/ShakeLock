@@ -22,11 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <service
-            android:name=".ShakeListenerService"
-            android:enabled="true"
-            android:exported="true"></service>
+<service android:name=".LockService"/>
     </application>
 
 </manifest>
